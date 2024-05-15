@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-body{
+    width: 100%;
+    height: 4303px;
+    background-color: black;
+}
+.header{
+    width: 100%;
+    height: 64px;
+    display: flex;
+}
+.sub-header1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.uber-logo a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sub-header1 ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    list-style: none;
+}
+.menu-button{
+    margin-top: 10px;
+    width: 70px;
+    height: 20px;
+    color: white;
+    border-radius: 10px solid;
+    border-color: transparent;
+    background-color: black;
+    cursor: pointer;
+}
+.sub-header2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-right: 140px;
+    align-items: center;
+    justify-content: end;
+}
+.sub-header2 ul{
+    display: flex;
+}
+.signup-btn{
+    width: 110px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+/* SECTION-1 */
+
+.sec-1{
+    width: 100%;
+    height: 760px;
+    margin-top: 60px;
+    display: flex;
+}
+.sec1-card1{
+    width: 558px;
+    height: 697.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: -22px;
+}
+.sec1-card1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 52px;
+ }
+ .sec1-card1 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+ }
+.sec1-card2{
+    width: 558px;
+    height: 697.5px;
+    background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698,h_873/v1684852612/assets/ba/4947c1-b862-400e-9f00-668f4926a4a2/original/Ride-with-Uber.png");
+    background-size: cover;
+    -webkit-border-radius: 10px;
+    margin-left: 40px;
+}
+.two-inputs{
+    max-width: 10px;
+}
+
+.see-price{
+    width: 130px;
+    height: 50px;
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* background-color: white; */
+}
+/* SECTION-2 */
+.sec-2{
+    width: 100%;
+    height: 686px;
+    padding-top: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.sec2-card1{
+    width: 558px;
+    height: 558px;
+    background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698,h_698/v1684855112/assets/96/4dd3d1-94e7-481e-b28c-08d59353b9e0/original/earner-illustra.png");
+    background-size: cover;
+    -webkit-border-radius: 10px;
+    margin-left: 180px;
+    
+}
+.sec2-card1 input{
+    color: black;
+}
+.sec2-card2{
+    width: 558px;
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 130px;
+}
+.sec2-card2 h1{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+}
+.sec2-card2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.get-strt{
+    display: flex;
+    gap: 30px;
+}
+.get-strt p{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.get-btn{
+    width: 140px;
+    height: 45px;
+    display: flex;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+/* SECTION-3 */
+.sec-3{
+    width: 100%;
+    height: 686px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec3-card1{
+    width: 558px;
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 10px;
+}
+.sec3-card1 h1{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+}
+.sec3-card1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.sec3-card2{
+    width: 558px;
+    height: 558px;
+    background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698,h_698/v1684887108/assets/76/baf1ea-385a-408c-846b-59211086196c/original/u4b-square.png");
+    background-size: cover;
+    -webkit-border-radius: 10px;
+    
+    
+}
+
+
+
+
+
+
+
+.sec-4{
+    width: 100%;
+    height: 686px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.sec4-card1{
+    width: 558px;
+    height: 558px;
+    background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698,h_698/v1696243819/assets/18/34e6fd-33e3-4c95-ad7a-f484a8c812d7/original/fleet-management.jpg");
+    background-size: cover;
+    -webkit-border-radius: 10px;
+    margin-left: 180px;
+    
+}
+.sec4-card2 h1{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.sec4-card2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.sec4-card2{
+    width: 558px;
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+
+
+
+
+
+
+.sec-5{
+    width: 100%;
+    height: 330px;
+    padding-top: 70px;
+    background-color: #f5f5f5;
+    justify-content: center;
+}
+.sec5-h1{
+    margin-left: 180px;
+}
+
+.sec5-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sec5-card1{
+    cursor: pointer;
+    width: 558px;
+    height:197px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.sec5-h1{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.QR{
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+.sec5-card2{
+    cursor: pointer;
+    width: 558px;
+    height:197px;
+    display: flex;
+    justify-content: start;
+    border-radius: 5px;
+    background-color: white;
+    align-items: center;
+    gap: 25px;
+    padding-left: 20px;
+}
+.footer{
+    width: 100%;
+    height: 853px;
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px
+}
+.footer-wrapper{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    gap: 90px;
+}
+.uber-footer-logo{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 48px;
+}
+.subfooter1 a{
+    color: white;
+    text-decoration: none;
+}
+.subfooter2{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    gap: 173px;
+}
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-ul h1{
+    font-size: 20px;
+}
+.footer-ul li{
+    cursor: pointer;
+    list-style: none;
+    color: white;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.subfooter3{
+    width: 100%;
+    height: 525px;
+}
+.icon-row{
+    width: 100%;
+    height: 48px;
+    display: flex;
+}
+.icons{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    gap: 100px;
+    margin-top: -20px;
+    margin-left: 6px;
+}
+.english
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-top: -20px;
+    margin-left: 6px
+}
+.english h4{
+    color: white;
+}
+.eng-btn{
+    cursor: pointer;
+    width: 96px;
+    height: 36px;
+    background-color: black;
+    border-radius: 30px;
+    border: transparent;
+}
